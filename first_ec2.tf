@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 module "ec2mod" {
-    source = "modules/aws-ec2"
+    source = "./modules/aws-ec2"
 }
 
